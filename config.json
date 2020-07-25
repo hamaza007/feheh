@@ -1,8 +1,8 @@
 {
-  "prefix": "!", 
-  "devs": ["400642564476370944"],
+  "prefix": "-", 
+  "devs": ["422412175509028874"],
   "nCategory":"TICKETS",
-  "ticketrole":"STAFF",
+  "ticketrole":"إدارة",
   "limttick": 5,
     "emojis": {
         "instagram": "<:insta:735209584439853056>",
