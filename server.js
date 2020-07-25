@@ -1,4 +1,4 @@
-require("events").EventEmitter.defaultMaxListeners = 0;
+
 // edit this : config.json, stay.json
 // credits goes to usef, creativeless
 // جميع الحقوق لدي usef, creativeless
@@ -24,20 +24,20 @@ client.on("ready", () => {
 });
 
 client.on('guildMemberAdd', member => {
-    let myGuild = client.guilds.cache.get('693838788207575040') // edit this
+    let myGuild = client.guilds.cache.get('732645271305191465') // edit this
  // Server Id Goes Here
     let membercount = myGuild.memberCount;
-    const membercountchannel = myGuild.channels.cache.get('735527674495238186'); // edit this
+    const membercountchannel = myGuild.channels.cache.get('736572107839766668'); // edit this
  // Channel Id Goes Here
     membercountchannel.setName('Member Count: ' + membercount)
 
 })
 
 client.on('guildMemberRemove', member => {
-        let myGuild = client.guilds.cache.get('693838788207575040')
+        let myGuild = client.guilds.cache.get('732645271305191465')
  // Server Id Goes Here
     let membercount = myGuild.memberCount;
-    const membercountchannel = myGuild.channels.cache.get('735527674495238186');
+    const membercountchannel = myGuild.channels.cache.get('736572107839766668');
  // Channel Id Goes Here
     membercountchannel.setName('Member Count: ' + membercount)
 
@@ -1650,4 +1650,4 @@ client.on("message", message => {
     if (e) throw e;
   });
 });
-client.login(''); // edit this
+client.login('NzMzODMwMjYwNzEzMzI0NTQ2.XxI2sA.e2CI0V5IeNnuTMZ6P57xy7CXnV8'); // edit this
